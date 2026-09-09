@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zuhairalwazzour.com/sitemap.xml
+Sitemap: https://zuhair-01.github.io/zuhairalwazzour/sitemap.xml
