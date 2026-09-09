@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zuhair Alwazzour — Syrian entrepreneur and athlete, founder of Ostazi</title>
-<meta name="description" content="Zuhair Alwazzour (زهير الوزور) is a Syrian entrepreneur and athlete based in Damascus, and the solo founder of Ostazi, a private tutoring platform serving students across Syria.">
-<link rel="canonical" href="https://zuhair-01.github.io/zuhairalwazzour/">
+<meta name="description" content="Zuhair Alwazzour (زهير الوزّور) is a Syrian entrepreneur and athlete based in Damascus, and the solo founder of Ostazi, a private tutoring platform serving students across Syria.">
+<link rel="canonical" href="https://zuhairalwazzour.vercel.app/">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Zuhair Alwazzour — Syrian entrepreneur and athlete, founder of Ostazi">
-<meta property="og:description" content="Zuhair Alwazzour (زهير الوزور) is a Syrian entrepreneur and athlete based in Damascus, and the solo founder of Ostazi, a private tutoring platform serving students across Syria.">
-<meta property="og:url" content="https://zuhair-01.github.io/zuhairalwazzour/">
+<meta property="og:description" content="Zuhair Alwazzour (زهير الوزّور) is a Syrian entrepreneur and athlete based in Damascus, and the solo founder of Ostazi, a private tutoring platform serving students across Syria.">
+<meta property="og:url" content="https://zuhairalwazzour.vercel.app/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zuhair Alwazzour — Syrian entrepreneur and athlete, founder of Ostazi">
 <meta name="twitter:description" content="Syrian entrepreneur and athlete based in Damascus. Solo founder of Ostazi, a private tutoring platform.">
@@ -23,7 +23,7 @@
   "description": "Syrian entrepreneur and athlete based in Damascus, and solo founder of Ostazi, a private tutoring platform serving students across Syria.",
   "nationality": "Syrian",
   "homeLocation": { "@type": "Place", "name": "Damascus, Syria" },
-  "url": "https://zuhair-01.github.io/zuhairalwazzour/",
+  "url": "https://zuhairalwazzour.vercel.app/",
   "worksFor": {
     "@type": "Organization",
     "name": "Ostazi",
@@ -53,14 +53,21 @@
   body{background:var(--bg);color:var(--fg);margin:0;
     font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
     line-height:1.6;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:640px;margin:0 auto;padding:22vh 28px 18vh;min-height:100vh;display:flex;flex-direction:column;justify-content:center}
+  .wrap{max-width:660px;margin:0 auto;padding:16vh 28px 14vh}
   h1{font-size:clamp(2.1rem,6vw,3.2rem);font-weight:500;letter-spacing:-.01em;margin:0 0 .1em}
-  .ar{color:var(--dim);font-size:1.15rem;margin:0 0 2.4em;letter-spacing:.02em}
+  .ar{color:var(--dim);font-size:1.15rem;margin:0 0 2.2em;letter-spacing:.02em}
   p{font-size:1.12rem;margin:0 0 1.3em}
   .dim{color:var(--dim)}
   a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:1px}
   a:hover{border-color:var(--accent)}
-  nav{margin-top:3.2em;display:flex;gap:1.6em;flex-wrap:wrap;font-size:.95rem}
+  h2{font-size:.82rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--dim);margin:3.6em 0 1.4em}
+  .work{list-style:none;padding:0;margin:0}
+  .work li{margin:0 0 1.7em;padding:0 0 1.7em;border-bottom:1px solid var(--line)}
+  .work li:last-child{border:0}
+  .work .t{font-size:1.12rem}
+  .work .d{color:var(--dim);font-size:1rem;margin:.35em 0 0}
+  nav{margin-top:3.4em;display:flex;gap:1.6em;flex-wrap:wrap;font-size:.95rem}
   nav a{border:0;color:var(--dim)}
   nav a:hover{color:var(--fg)}
 </style>
@@ -76,7 +83,65 @@
 
   <p class="dim">He builds quietly — one founder, one product, shipped and running —
   and trains in Damascus. Ostazi connects students with vetted private teachers and
-  handles scheduling, payments, and progress in one place.</p>
+  handles scheduling, payments, and progress in one place: OTP auth, a booking state
+  machine, a commission ledger, and institute accounts, all in production.</p>
+
+  <h2>Selected work</h2>
+  <ul class="work">
+    <li>
+      <div class="t"><a href="https://ostazi-edu.com/">Ostazi</a> — private tutoring platform</div>
+      <p class="d">Designed, built, and operated solo. A live two-sided marketplace for
+      Syria: phone-OTP auth, a booking state machine, a commission ledger, teacher
+      vetting, and institute / school accounts. In production at ostazi-edu.com.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01/open-axis">open-axis</a> — multi-agent control plane</div>
+      <p class="d">A local control plane that routes engineering tasks across Claude
+      Code, OpenCode, and Codex with real fallback, capability-tier routing, and
+      durable task state. Zero dependencies, fully tested.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01/kyros">kyros</a> — AI orchestration dispatcher</div>
+      <p class="d">Deterministic task-routing dispatcher plus a GPU mutex for
+      local/cloud model orchestration — auditable tier selection, no dependencies,
+      16/16 tests.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01/chrome-agent-bridge">chrome-agent-bridge</a> — CDP-native browser control</div>
+      <p class="d">Universal Chrome control for any AI coding agent — OpenCode, Codex,
+      Claude Code, anything with a shell. CDP-native, no extensions.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01/ai-security-log-analyzer">ai-security-log-analyzer</a> — detection engine</div>
+      <p class="d">Deterministic security-log detection (brute force, impossible travel,
+      port scans) with local-LLM incident summaries layered on top. Synthetic data,
+      no API keys, 12/12 tests.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01/nabd">nabd</a> — B2B sales intelligence</div>
+      <p class="d">Free-first buying-signal detection, ICP-based company discovery,
+      transparent scoring, and outreach drafting — built with zero paid APIs.
+      Archived: infra torn down, code complete.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01/open-pinterest">open-pinterest</a> — reference-sourcing tool</div>
+      <p class="d">A Claude Code skill that finds, evaluates, and downloads real
+      design / UI / motion references (images and video), cuts out subjects, and
+      wires them into a frontend build.</p>
+    </li>
+    <li>
+      <div class="t"><a href="https://github.com/Zuhair-01?tab=repositories">the full workshop →</a></div>
+      <p class="d">BI over a real ETL pipeline, local-LLM contract extraction that
+      reports missing fields honestly, a synthetic-data SQL assistant, and the
+      Claude Code setup itself.</p>
+    </li>
+  </ul>
+
+  <h2>How he works</h2>
+  <p class="dim">Systems, not snippets — architecture, working code, and real tests in
+  every repo. Local-first AI — Ollama pipelines, no paid API keys, hallucination
+  guards by construction. Honesty as a feature — synthetic data labeled as such,
+  real limitations documented rather than hidden.</p>
 
   <nav>
     <a href="facts.html">Facts</a>

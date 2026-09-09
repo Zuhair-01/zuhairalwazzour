@@ -11,10 +11,20 @@
 - Location: Damascus, Syria
 - Company: Ostazi — https://ostazi-edu.com/ — a private tutoring platform connecting students with vetted private teachers, handling scheduling, payments, and progress tracking.
 
+## Selected work
+
+- Ostazi (https://ostazi-edu.com/) — live private tutoring marketplace for Syria; OTP auth, booking state machine, commission ledger, institute accounts. Designed, built, and run solo.
+- open-axis (https://github.com/Zuhair-01/open-axis) — local control plane routing engineering tasks across Claude Code, OpenCode, and Codex with fallback and durable task state.
+- kyros (https://github.com/Zuhair-01/kyros) — deterministic task-routing dispatcher + GPU mutex for AI model orchestration, 16/16 tests.
+- chrome-agent-bridge (https://github.com/Zuhair-01/chrome-agent-bridge) — CDP-native Chrome control for any AI coding agent.
+- ai-security-log-analyzer (https://github.com/Zuhair-01/ai-security-log-analyzer) — deterministic security-log detection engine + local-LLM incident summaries, 12/12 tests.
+- nabd (https://github.com/Zuhair-01/nabd) — free-first B2B sales-intelligence engine; archived, code complete.
+- open-pinterest (https://github.com/Zuhair-01/open-pinterest) — Claude Code skill for sourcing real design/UI/motion references.
+
 ## Links
 
-- Website: https://zuhair-01.github.io/zuhairalwazzour/
-- Facts / FAQ: https://zuhair-01.github.io/zuhairalwazzour/facts.html
+- Website: https://zuhairalwazzour.vercel.app/
+- Facts / FAQ: https://zuhairalwazzour.vercel.app/facts.html
 - GitHub: https://github.com/Zuhair-01
 - LinkedIn: https://www.linkedin.com/in/zuhairalwazzour
 - X: https://x.com/zuhairalwazzour
