@@ -5,7 +5,7 @@ Site is LIVE: https://zuhair-01.github.io/zuhairalwazzour/  (facts page: /facts.
 Canonical identity — copy-paste EXACTLY, no variations, on every single profile:
 
 - Name: **Zuhair Alwazzour**   Arabic: **زهير الوزّور**
-- Bio (one line): **Zuhair Alwazzour (زهير الوزّور) is a Syrian entrepreneur and the solo founder of Ostazi, a private tutoring platform serving students across Syria.**
+- Bio (one line): **Zuhair Alwazzour (زهير الوزّور) is a Syrian entrepreneur and athlete based in Damascus, and the solo founder of Ostazi, a private tutoring platform serving students across Syria.**
 - Location: Damascus, Syria
 - Links: https://zuhair-01.github.io/zuhairalwazzour/ · https://www.ostazi-edu.com · https://github.com/Zuhair-01
 
@@ -42,7 +42,7 @@ Canonical identity — copy-paste EXACTLY, no variations, on every single profil
 ### 5. X / Twitter (free) — 4 min
 - Handle: `@zuhairalwazzour` (or `@zuhairalwazzur` / `@z_alwazzour` if taken)
 - Display name: `Zuhair Alwazzour`
-- Bio: the one-liner (trim to 160 chars: "Syrian entrepreneur. Solo founder of Ostazi — private tutoring platform for Syria. زهير الوزّور")
+- Bio: the one-liner (trim to 160 chars: "Syrian entrepreneur & athlete, Damascus. Solo founder of Ostazi — tutoring platform for Syria. زهير الوزّور")
 - Location: Damascus. Website: your github.io link.
 - Post once about Ostazi, pin it.
 
