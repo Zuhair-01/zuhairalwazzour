@@ -24,6 +24,7 @@
 ## Links
 
 - Website: https://zuhairalwazzour.vercel.app/
+- Portfolio: https://zuhair-portfolio.vercel.app/
 - Facts / FAQ: https://zuhairalwazzour.vercel.app/facts.html
 - GitHub: https://github.com/Zuhair-01
 - LinkedIn: https://www.linkedin.com/in/zuhairalwazzour
